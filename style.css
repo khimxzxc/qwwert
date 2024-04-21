@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Syne", sans-serif;
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1920px;
+}
+
+.discover_container {
+    display: flex;
+    background-color: #EFF8FF;
+    background-image: url(img/group.png);
+    background-repeat: no-repeat;
+    flex-direction: column;
+    background-position: top right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 234px;
+    padding: 16px 390px;
+    padding-bottom: 113px;
+    align-items: center;
+}
+
+.logo p {
+    font-weight: 400;
+    font-size: 26px;
+    color: #12181D;
+}
+
+.logo {
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    gap: 30px;
+}
+
+.link a {
+    list-style: none;
+    color: #16100D;
+    font-weight: 500;
+}
+
+.login {
+    background-color: #025595;
+    border-radius: 16px;
+   padding: 18px 52px;
+}
+.login a {
+    color: #ffff;
+    font-weight: 500;
+}
+
+.context {
+    display: flex;
+    flex-direction: column;
+    padding-left: 390px;
+    gap: 20px;
+    padding-bottom: 56px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.text {
+    color: #16100D;
+    opacity: 50%;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.background {
+   background-color: rgba(255, 255, 255, 80%);
+   border-radius: 16px;
+    
+    margin-left: 390px;
+    margin-right: 595px;
+   
+    
+}
+
+.information {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    padding-left: 20px;
+    gap: 42px;
+    padding-right: 20px;
+}
+
+.hug {
+    display: flex;
+    gap: 61px;
+}
+
+.location {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.location .gray {
+    background-color: rgba(2, 85, 149, 5%);
+   width: 60px;
+   height: 60px;
+   border-radius: 60%;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+
+}
+
+.location .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 100%;
+}
+
+.q {
+   font-size: 20px;
+   font-weight: 500;
+   color: #16100D;
+}
+
+.w {
+    font-size: 18px;
+    opacity: 50%;
+    font-weight: 400;
+}
+
+.button {
+    background-color: #025595;
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    opacity: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
